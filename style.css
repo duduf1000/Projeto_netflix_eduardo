@@ -1,12 +1,12 @@
 body{
     background-color: rgb(0, 0, 0);
-    color: rgb(100, 100, 100);
+    color: rgb(204, 204, 204);
     margin: 0px;
 }
 header{
     border-bottom: solid 2px rgb(255, 255, 255);
     padding: 20px;
-    font-size:32px;
+    font-size:40px;
     color:rgb(255, 0, 0);
     font-family: "Honk", system-ui;}
 .chamada{
@@ -17,4 +17,11 @@ header{
     justify-content: center
 }
 .chamada-texto{margin-right:5%;}
-h1{font-size:40px;}
+    h1{font-size:40px;}
+    p{font-size: 25px;}
+categoria-video{
+    display:flex;
+    overflow: auto;
+    gap: 10px;
+}
+    
